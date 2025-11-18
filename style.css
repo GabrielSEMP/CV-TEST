@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+/* Zone d'importation */
+
+body {
+    background-color: #0c1425;
+    font-family: "barlow", sans-serif;
+    animation: defloue 1s ease-in;
+    height: 100%;
+    margin: 0%  ;
+}
+
+
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(210, 195, 195);
+}
+
+li {
+    color: rgb(210, 195, 195);
+}
+
+h1,
+h2,
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Merriweather';
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    color: #024ef5;
+}
+
+.conteneur {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0 0 50px -10px rgb(0, 30, 95);
+    background-color: #101829;
+}
+
+.conteneur p, li{
+        text-shadow: 0 0 10px rgb(255, 255, 255) ;
+
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: #3531684f;
+}
+
+.special {
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+@keyframes defloue {
+    0% {
+        filter: blur(3px);
+    }
+
+    100% {
+        filter: blur(0);
+    }
+}
+html, body {
+    height: 100%;
+    margin: 0; 
+}
+
+.titre{
+    position: relative;
+
+}
